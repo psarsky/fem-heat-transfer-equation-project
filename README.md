@@ -29,17 +29,3 @@ Weak formulation for this problem is derived in [`FEM-weak-formulation.pdf`](FEM
 For a maximum grade, integration must be performed numerically ([**Gauss–Legendre quadrature**](https://en.wikipedia.org/wiki/Gauss–Legendre_quadrature) method) and the number of elements must be defined by the user.
 
 Grade - 50/50pts.
-
-## Requirements
-
-- Python 3.13 (not sure about backwards compatibility)
-- numpy
-- matplotlib
-
-## Execution
-
-Just run the `main.py` file:
-```
-> py main.py
-```
-
